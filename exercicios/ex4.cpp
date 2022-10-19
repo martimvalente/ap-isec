@@ -1,6 +1,8 @@
-#include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
-#include <math.h>
+#include <cmath>
+
+using namespace std;
 
 float v1 = 0;
 
@@ -9,16 +11,17 @@ int main(){
 
   //exercicio 4.1
   v1 = --v1+10;
-  printf("v1= %f \n", v1);
+  cout << "v1=" << v1 << "\n" ;
 
   //exercicio 4.2
   double x = 6.1, y = 4.8;
   double result = pow(x, y);
-  printf("%.2lf \n", result);
+  cout << result << "\n" ;
   
   //exercicio 4.3
   float v1 = v2%v3;
-  printf("v1=%f \n", v1 );
+  cout << "v1=" << v1 << "\n" ;
 
   return 0;
 }
+

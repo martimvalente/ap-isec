@@ -18,7 +18,7 @@ int main(){
   printf("area= %f \n", a);
 
   //calcular volume = ab x h
-  printf("volume: ");
+  printf("altura: ");
   float h = 0;
   scanf("%f", &h);
   float vol = a * h;
