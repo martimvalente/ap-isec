@@ -16,5 +16,14 @@ int main(){
   //Calcular area = pi x r2
   float a = pi*pow(r,2);
   printf("area= %f \n", a);
+
+  //calcular volume = ab x h
+  printf("volume: ");
+  float h = 0;
+  scanf("%f", &h);
+  float vol = a * h;
+  printf("area da base= %f \n", vol);
+
+  return 0;
 }
 
