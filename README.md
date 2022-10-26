@@ -23,4 +23,4 @@ Para quem estiver a usar o terminal:
 
 e depois
 
-```./<exercicio>``` (*alguns podem precisar de argumentos, desenmerdem-se*)
+```./<exercicio>``` (*alguns podem precisar de argumentos, desemerdem-se*)
